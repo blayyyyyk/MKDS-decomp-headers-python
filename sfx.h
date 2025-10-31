@@ -52,8 +52,10 @@ typedef struct
     void* startFunc;
     void* updateFunc;
     u16 field34;
+    u16 field36; // padding for alignment
     u32 field38;
     u8 sfxParamIdx;
+    u8 field3D[3]; // padding for alignment
     u32 squareDistance;
 } sfx_emitter_t;
 
