@@ -1,5 +1,7 @@
 #pragma once
 
+#include <nnsfnd.h>
+
 typedef struct
 {
     u32 unknown;

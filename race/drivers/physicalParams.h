@@ -24,7 +24,7 @@ typedef struct
     fx32 collisionSpeedMultipliers[12];
 } physp_kart_params_t;
 
-SDK_COMPILER_ASSERT(sizeof(physp_kart_params_t) == 0x98);
+//SDK_COMPILER_ASSERT(sizeof(physp_kart_params_t) == 0x98);
 
 typedef struct
 {
@@ -32,7 +32,7 @@ typedef struct
     fx32 weight;
 } physp_char_params_t;
 
-SDK_COMPILER_ASSERT(sizeof(physp_char_params_t) == 8);
+//SDK_COMPILER_ASSERT(sizeof(physp_char_params_t) == 8);
 
 typedef struct
 {

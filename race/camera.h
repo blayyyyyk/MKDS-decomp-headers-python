@@ -35,6 +35,29 @@ typedef struct
     u32 field84;
 } came_unknown_t;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 typedef struct camera_t
 {
     VecFx32 up;

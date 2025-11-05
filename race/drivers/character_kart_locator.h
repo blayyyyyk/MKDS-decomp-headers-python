@@ -1,4 +1,5 @@
 #pragma once
+
 #include "../raceConfig.h"
 
 typedef struct

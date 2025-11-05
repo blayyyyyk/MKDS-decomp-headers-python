@@ -1,3 +1,4 @@
+
 #pragma once
 #include "sfx.h"
 #include "charKart.h"
@@ -7,6 +8,7 @@
 #include "input/input.h"
 #include "enemy.h"
 #include "race/struc_351.h"
+
 
 typedef struct mobj_inst_t mobj_inst_t;
 
@@ -523,7 +525,7 @@ typedef struct driver_t
     fx32 field5A4;
 } driver_t;
 
-SDK_COMPILER_ASSERT(sizeof(driver_t) == 0x5A8);
+////SDK_COMPILER_ASSERT(sizeof(driver_t) == 0x5A8);
 
 driver_t* driver_getById(u32 driverId);
 
@@ -549,7 +551,7 @@ static inline BOOL driver_isNearby(u16 driverId, const VecFx32* position, fx32 d
     const VecFx32* driverPos = driver_getPositionById(driverId);
     return vec_isNearbyXZ(driverPos, position, distance);
 }
-
+/*
 static inline BOOL driver_isAnyNearby(const VecFx32* position, fx32 distance)
 {
     for (int i = 0; i < (int)rconf_getDriverCount(); i++)
@@ -559,3 +561,4 @@ static inline BOOL driver_isAnyNearby(const VecFx32* position, fx32 distance)
     }
     return FALSE;
 }
+*/

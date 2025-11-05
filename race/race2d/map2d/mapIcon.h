@@ -2,6 +2,7 @@
 #include "race/mapobj/mapobjInstance.h"
 #include "oam.h"
 
+
 #define MPICN_GROUP_COUNT       49
 
 typedef struct

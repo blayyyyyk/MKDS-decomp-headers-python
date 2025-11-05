@@ -1,5 +1,9 @@
 #pragma once
 
+#include <nnsys.h>
+#include <nitro/gx/g3.h>
+
+
 typedef struct
 {
     NNSFndLink link;

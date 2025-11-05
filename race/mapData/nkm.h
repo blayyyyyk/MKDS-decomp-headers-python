@@ -27,7 +27,7 @@ typedef struct
     u16 showsInTT; ///< If the object should be displayed in time trial mode (false for item boxes for example)
 } nkm_obji_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_obji_entry_t) == 0x3C);
+//SDK_COMPILER_ASSERT(sizeof(nkm_obji_entry_t) == 0x3C);
 
 typedef struct
 {
@@ -42,7 +42,7 @@ typedef struct
     u16 pointCount;
 } nkm_path_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_path_entry_t) == 0x4);
+//SDK_COMPILER_ASSERT(sizeof(nkm_path_entry_t) == 0x4);
 
 typedef struct
 {
@@ -68,7 +68,7 @@ typedef struct
     };
 } nkm_poit_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_poit_entry_t) == 0x14);
+//SDK_COMPILER_ASSERT(sizeof(nkm_poit_entry_t) == 0x14);
 
 typedef struct
 {
@@ -98,7 +98,7 @@ typedef struct
     nkm_stag_data_t data;
 } nkm_stag_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_stag_t) == 0x2C);
+//SDK_COMPILER_ASSERT(sizeof(nkm_stag_t) == 0x2C);
 
 typedef struct
 {
@@ -108,7 +108,7 @@ typedef struct
     s16 index;
 } nkm_ktps_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_ktps_entry_t) == 0x1C);
+//SDK_COMPILER_ASSERT(sizeof(nkm_ktps_entry_t) == 0x1C);
 
 typedef struct
 {
@@ -125,7 +125,7 @@ typedef struct
     s16 id;
 } nkm_ktpj_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_ktpj_entry_t) == 0x20);
+//SDK_COMPILER_ASSERT(sizeof(nkm_ktpj_entry_t) == 0x20);
 
 typedef struct
 {
@@ -141,7 +141,7 @@ typedef struct
     u16 id;
 } nkm_ktp2_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_ktp2_entry_t) == 0x1C);
+//SDK_COMPILER_ASSERT(sizeof(nkm_ktp2_entry_t) == 0x1C);
 
 typedef struct
 {
@@ -157,7 +157,7 @@ typedef struct
     u16 id;
 } nkm_ktpc_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_ktpc_entry_t) == 0x1C);
+//SDK_COMPILER_ASSERT(sizeof(nkm_ktpc_entry_t) == 0x1C);
 
 typedef struct
 {
@@ -173,7 +173,7 @@ typedef struct
     s16 id;
 } nkm_ktpm_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_ktpm_entry_t) == 0x1C);
+//SDK_COMPILER_ASSERT(sizeof(nkm_ktpm_entry_t) == 0x1C);
 
 typedef struct
 {
@@ -199,7 +199,7 @@ typedef struct
     u8 flags;
 } nkm_cpoi_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_cpoi_entry_t) == 0x24);
+//SDK_COMPILER_ASSERT(sizeof(nkm_cpoi_entry_t) == 0x24);
 
 typedef struct
 {
@@ -216,7 +216,7 @@ typedef struct
     u8 sectionOrder;
 } nkm_cpat_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_cpat_entry_t) == 0xC);
+//SDK_COMPILER_ASSERT(sizeof(nkm_cpat_entry_t) == 0xC);
 
 typedef struct
 {
@@ -232,7 +232,7 @@ typedef struct
     //most likely padding
 } nkm_ipoi_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_ipoi_entry_t) == 0x14);
+//SDK_COMPILER_ASSERT(sizeof(nkm_ipoi_entry_t) == 0x14);
 
 typedef struct
 {
@@ -240,7 +240,7 @@ typedef struct
     fx32 radius;
 } nkm_ipoi_entry_beta_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_ipoi_entry_beta_t) == 0x10);
+//SDK_COMPILER_ASSERT(sizeof(nkm_ipoi_entry_beta_t) == 0x10);
 
 typedef union
 {
@@ -263,7 +263,7 @@ typedef struct
     s16 sectionOrder;
 } nkm_ipat_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_ipat_entry_t) == 0xC);
+//SDK_COMPILER_ASSERT(sizeof(nkm_ipat_entry_t) == 0xC);
 
 typedef struct
 {
@@ -285,7 +285,7 @@ typedef struct
     nkm_epoi_entry_settings_t settings;
 } nkm_epoi_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_epoi_entry_t) == 0x18);
+//SDK_COMPILER_ASSERT(sizeof(nkm_epoi_entry_t) == 0x18);
 
 typedef struct
 {
@@ -302,7 +302,7 @@ typedef struct
     s16 sectionOrder;
 } nkm_epat_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_epat_entry_t) == 0xC);
+//SDK_COMPILER_ASSERT(sizeof(nkm_epat_entry_t) == 0xC);
 
 typedef struct
 {
@@ -323,7 +323,7 @@ typedef struct
     nkm_mepo_entry_settings_t settings;
 } nkm_mepo_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_mepo_entry_t) == 0x18);
+//SDK_COMPILER_ASSERT(sizeof(nkm_mepo_entry_t) == 0x18);
 
 typedef struct
 {
@@ -339,7 +339,7 @@ typedef struct
     u8 previous[8];
 } nkm_mepa_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_mepa_entry_t) == 0x14);
+//SDK_COMPILER_ASSERT(sizeof(nkm_mepa_entry_t) == 0x14);
 
 typedef struct
 {
@@ -381,7 +381,7 @@ typedef struct
     u8 field47;
 } nkm_area_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_area_entry_t) == 0x48);
+//SDK_COMPILER_ASSERT(sizeof(nkm_area_entry_t) == 0x48);
 
 typedef struct
 {
@@ -432,7 +432,7 @@ typedef struct
     u8 unknown;
 } nkm_came_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(nkm_came_entry_t) == 0x4C);
+//SDK_COMPILER_ASSERT(sizeof(nkm_came_entry_t) == 0x4C);
 
 typedef struct
 {

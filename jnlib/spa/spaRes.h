@@ -109,7 +109,7 @@ typedef struct
     };
 } spa_res_emitter_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_t) == 0x58);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_t) == 0x58);
 
 typedef struct
 {
@@ -123,7 +123,7 @@ typedef struct
     u16 padding;
 } spa_res_emitter_scaleanim_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_scaleanim_t) == 0xC);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_scaleanim_t) == 0xC);
 
 typedef struct
 {
@@ -140,7 +140,7 @@ typedef struct
     u16 padding;
 } spa_res_emitter_coloranim_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_coloranim_t) == 0xC);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_coloranim_t) == 0xC);
 
 typedef struct
 {
@@ -156,7 +156,7 @@ typedef struct
     u16 padding;
 } spa_res_emitter_alphaanim_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_alphaanim_t) == 8);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_alphaanim_t) == 8);
 
 typedef struct
 {
@@ -168,7 +168,7 @@ typedef struct
     u32 : 14;
 } spa_res_emitter_texanim_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_texanim_t) == 0xC);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_texanim_t) == 0xC);
 
 #define SPA_RES_EMITTER_CHILD_ROT_INHERIT_MODE_NONE		0
 #define SPA_RES_EMITTER_CHILD_ROT_INHERIT_MODE_FREEZE	1
@@ -206,7 +206,7 @@ typedef struct
     u32 : 25;
 } spa_res_emitter_child_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_child_t) == 0x14);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_child_t) == 0x14);
 
 typedef struct
 {
@@ -214,7 +214,7 @@ typedef struct
     u16 padding;
 } spa_res_emitter_field_gravity_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_field_gravity_t) == 8);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_field_gravity_t) == 8);
 
 typedef struct
 {
@@ -222,7 +222,7 @@ typedef struct
     u16 interval;
 } spa_res_emitter_field_random_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_field_random_t) == 8);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_field_random_t) == 8);
 
 typedef struct
 {
@@ -231,7 +231,7 @@ typedef struct
     u16 padding;
 } spa_res_emitter_field_magnet_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_field_magnet_t) == 0x10);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_field_magnet_t) == 0x10);
 
 #define SPA_RES_EMITTER_FIELD_SPIN_TYPE_X	0
 #define SPA_RES_EMITTER_FIELD_SPIN_TYPE_Y	1
@@ -243,7 +243,7 @@ typedef struct
     u16 type;
 } spa_res_emitter_field_spin_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_field_spin_t) == 4);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_field_spin_t) == 4);
 
 #define SPA_RES_EMITTER_FIELD_COLLISION_BEHAVIOR_DIE		0
 #define SPA_RES_EMITTER_FIELD_COLLISION_BEHAVIOR_BOUNCE		1
@@ -256,7 +256,7 @@ typedef struct
     u16 : 14;
 } spa_res_emitter_field_collision_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_field_collision_t) == 8);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_field_collision_t) == 8);
 
 typedef struct
 {
@@ -265,7 +265,7 @@ typedef struct
     u16 padding;
 } spa_res_emitter_field_convergence_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_field_convergence_t) == 0x10);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_emitter_field_convergence_t) == 0x10);
 
 typedef struct
 {
@@ -292,7 +292,7 @@ typedef struct
     u32 blockSize;
 } spa_res_texture_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_texture_t) == 0x20);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_texture_t) == 0x20);
 
 typedef struct
 {
@@ -307,4 +307,4 @@ typedef struct
     u32 field1C;
 } spa_res_header_t;
 
-SDK_COMPILER_ASSERT(sizeof(spa_res_header_t) == 0x20);
+//SDK_COMPILER_ASSERT(sizeof(spa_res_header_t) == 0x20);

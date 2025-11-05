@@ -2,6 +2,7 @@
 #include "sinThing.h"
 #include "race/pathwalker.h"
 #include "race/mapobj/mapobjInstance.h"
+#include <race/mapobj/mapobj.h>
 
 typedef enum
 {

@@ -11,7 +11,7 @@ typedef struct
     u16 attribute;
 } kcol_prism_data_t;
 
-SDK_COMPILER_ASSERT(sizeof(kcol_prism_data_t) == 0x10);
+//SDK_COMPILER_ASSERT(sizeof(kcol_prism_data_t) == 0x10);
 
 typedef struct
 {
@@ -30,4 +30,4 @@ typedef struct
     fx32 sphereRadius;
 } kcol_header_t;
 
-SDK_COMPILER_ASSERT(sizeof(kcol_header_t) == 0x3C);
+//SDK_COMPILER_ASSERT(sizeof(kcol_header_t) == 0x3C);

@@ -1,5 +1,7 @@
 #pragma once
 
+#include <nnssnd.h>
+
 typedef struct
 {
     s16 value;

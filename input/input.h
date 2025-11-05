@@ -1,5 +1,6 @@
 #pragma once
-#include "pad.h"
+
+#include <pad.h>
 #include "inputRecorder.h"
 #include "spi.h"
 
@@ -60,7 +61,7 @@ typedef struct
 
 extern input_unit_t gInputUnits[INPUT_UNIT_COUNT];
 
-void input_init(NNSFndHeapHandle heapHandle);
+void input_init(int heapHandle);
 void input_initUnits();
 void input_2043B48();
 void input_stopTouchAutoSampling();

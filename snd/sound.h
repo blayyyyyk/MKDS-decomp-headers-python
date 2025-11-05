@@ -1,6 +1,7 @@
 #pragma once
 #include "sound3.h"
 #include "soundPool.h"
+#include <nnsys.h>
 
 typedef enum
 {

@@ -1,6 +1,7 @@
 #pragma once
 #include "mission.h"
 #include "raceTime.h"
+#include <nnsys.h>
 
 typedef enum
 {

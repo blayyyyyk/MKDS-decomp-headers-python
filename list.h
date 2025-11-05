@@ -1,5 +1,7 @@
 #pragma once
 
+#include <nnsys.h>
+
 typedef struct
 {
     NNSFndLink link;

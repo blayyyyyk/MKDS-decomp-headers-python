@@ -1,5 +1,7 @@
 #pragma once
 
+#include <race/mapobj/mapobj.h>
+
 typedef enum
 {
     DRAM_STATE_WAIT,

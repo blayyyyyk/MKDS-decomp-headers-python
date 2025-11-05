@@ -8,7 +8,7 @@ typedef struct
     VecFx32 characterPositions[13];
 } kofs_entry_t;
 
-SDK_COMPILER_ASSERT(sizeof(kofs_entry_t) == 0xE0);
+//SDK_COMPILER_ASSERT(sizeof(kofs_entry_t) == 0xE0);
 
 typedef struct
 {

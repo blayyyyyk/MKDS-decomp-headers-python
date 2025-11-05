@@ -1,5 +1,7 @@
 #pragma once
 
+#include <nnsys.h>
+
 #define SOUND_OUTPUT_EFFECT_BUFFER_SIZE		4096
 
 typedef struct

@@ -1,5 +1,8 @@
 #pragma once
 
+#include "animationManager.h"
+#include "race/billboardModel.h"
+
 typedef enum
 {
     JG_OBJECT_LAP_COUNT,

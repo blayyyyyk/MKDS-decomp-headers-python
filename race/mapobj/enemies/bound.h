@@ -1,6 +1,7 @@
 #pragma once
 #include "race/pathwalker.h"
 #include "sinThing.h"
+#include <race/mapobj/mapobj.h>
 
 typedef enum
 {

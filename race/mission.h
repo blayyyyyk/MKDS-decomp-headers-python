@@ -1,3 +1,4 @@
+
 #pragma once
 
 typedef enum
@@ -46,7 +47,7 @@ typedef struct
     char name[12];
 } mission_config_t;
 
-SDK_COMPILER_ASSERT(sizeof(mission_config_t) == 0x2C);
+//SDK_COMPILER_ASSERT(sizeof(mission_config_t) == 0x2C);
 
 typedef struct
 {

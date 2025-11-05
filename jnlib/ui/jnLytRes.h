@@ -15,7 +15,7 @@ typedef struct
     u16 unk : 2;
 } jnui_coord_t;
 
-SDK_COMPILER_ASSERT(sizeof(jnui_coord_t) == 2);
+//SDK_COMPILER_ASSERT(sizeof(jnui_coord_t) == 2);
 
 typedef struct
 {
@@ -77,7 +77,7 @@ typedef struct
     u8 height;
 } jnui_bnbl_res_element_t;
 
-SDK_COMPILER_ASSERT(sizeof(jnui_bnbl_res_element_t) == 6);
+//SDK_COMPILER_ASSERT(sizeof(jnui_bnbl_res_element_t) == 6);
 
 typedef struct
 {

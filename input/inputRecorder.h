@@ -40,7 +40,7 @@ typedef struct
     BOOL isBufferClear;
 } input_rec_t;
 
-void irec_allocBuffer(input_rec_t* recorder, NNSFndHeapHandle heapHandle);
+void irec_allocBuffer(input_rec_t* recorder, int heapHandle);
 void irec_setBufferToNull(input_rec_t* recorder);
 void irec_init(input_rec_t* recorder);
 void irec_startRecording(input_rec_t* recorder);

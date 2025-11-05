@@ -1,6 +1,7 @@
 #pragma once
 #include "model.h"
 #include "animationManager.h"
+#include <nnsys.h>
 
 typedef struct
 {
