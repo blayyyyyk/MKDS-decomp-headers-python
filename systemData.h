@@ -40,7 +40,7 @@ typedef struct
     MKDSOverlayRelatedNum overlayRelatedNum; //0x20
     NNSFndHeapHandle dtcmHeapHandle;
     s16 field28;
-    u16 nickName[OS_OWNERINFO_NICKNAME_MAX];
+    u16 nickName[0];
     u16 nickNameLength;
     u8 favoriteColor;
     int activatedRaceMenuOption;

@@ -3,7 +3,6 @@
 #include "input/inputRecorder.h"
 #include "saveCore.h"
 #include "race/drivers/ghostData.h"
-#include <dwc_account.h>
 
 typedef struct
 {

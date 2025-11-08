@@ -2,7 +2,7 @@
 
 #include "scene/sceneProc.h"
 #include "race/raceConfig.h"
-#include <nnsfnd.h>
+#include <nnsys.h>
 
 typedef void*(*arc_load_func_t)(const char* path);
 

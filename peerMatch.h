@@ -1,7 +1,6 @@
 #pragma once
 #include "common.h"
 #include "struct217AA00.h"
-#include <dwc.h>
 
 typedef struct net_menu_dgram_header_t_
 {
@@ -96,7 +95,7 @@ typedef struct net_state_t_
 {
 	NNSFndHeapHandle heap;
 	void *heapMem;
-	state_machine_t stateMachine;
+	u32 stateMachine;
 	u8 raceRecvBuffers[4][128];
 	net_menu_profile_dgram_t profileDatagramBuffers[4];
 	net_state_field_B2C_t fieldB2C;

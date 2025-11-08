@@ -1,5 +1,7 @@
 #pragma once
 
+#include "nitro.h"
+
 typedef struct
 {
     u16 triggeredKeys;

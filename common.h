@@ -14,7 +14,7 @@
 #include "common.pch++"
 #else
 /* include precompiled header for C source */
-#include "common.pch"
+//#include "common.pch"
 #endif
 #endif
 

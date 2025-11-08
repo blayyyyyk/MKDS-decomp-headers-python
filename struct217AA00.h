@@ -2,6 +2,8 @@
 
 #include "race/raceConfig.h"
 
+
+
 typedef struct
 {
     u16 nickName[10];

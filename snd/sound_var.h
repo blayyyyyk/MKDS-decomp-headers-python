@@ -1,6 +1,6 @@
 #pragma once
 
-#include <nnssnd.h>
+#include <nnsys.h>
 
 typedef struct
 {

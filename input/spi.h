@@ -1,5 +1,7 @@
 #pragma once
-#include <snd/microphone.h>
+#include "snd/microphone.h"
+
+#include <nnsys.h>
 
 typedef struct
 {
@@ -17,16 +19,6 @@ typedef struct
     u8 mic;
 } input_tpmic_t;
 
-// Touch panel input structure
-typedef struct
-{
-    u16     x;                         // x coordinate ( 0 - 4095 )
-    u16     y;                         // y coordinate ( 0 - 4095 )
-    u16     touch;                     // Touch yes/no
-    u16     validity;                  // Valid yes/no
-}
-TPData;
-
 typedef struct
 {
     TPData tpSampleBuf[5];
@@ -42,10 +34,10 @@ typedef struct
 extern spi_t* gSpiData;
 
 void spi_initTouch();
-void spi_init(int heapHandle);
+void spi_init(NNSFndHeapHandle heapHandle);
 void spi_initTpMic(input_tpmic_t* tpMic);
 void spi_startTouchAutoSampling();
-void spi_startMicAutoSampling(int heapHandle);
+void spi_startMicAutoSampling(NNSFndHeapHandle heapHandle);
 void spi_stopTouchAutoSampling();
 void spi_stopMicAutoSampling();
 void spi_handlePreSleep();
